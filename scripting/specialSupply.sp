@@ -120,6 +120,10 @@ public Action CommandBuyBreachCharge(int client, int args) {
         CPrintToChat(client, "%t%t", "ssp prefix", "ssp already purchased", weaponName);
         return Plugin_Handled;
     }
+    if(g_bOnlyInBuyZone && !IsClientInBuyZone(client)) {
+        CPrintToChat(client, "%t%t", "ssp prefix", "ssp only buy zone");
+        return Plugin_Handled;
+    }
 
     if(GetClientMoney(client) < g_iSSPWeaponPrices[WEAPON_BREACH_CHARGE]) {
         char message[128];
@@ -144,6 +148,10 @@ public Action CommandBuyBumpMine(int client, int args) {
         CPrintToChat(client, "%t%t", "ssp prefix", "ssp already purchased", weaponName);
         return Plugin_Handled;
     }
+    if(g_bOnlyInBuyZone && !IsClientInBuyZone(client)) {
+        CPrintToChat(client, "%t%t", "ssp prefix", "ssp only buy zone");
+        return Plugin_Handled;
+    }
 
     if(GetClientMoney(client) < g_iSSPWeaponPrices[WEAPON_BUMPMINE]) {
         char message[128];
@@ -166,6 +174,10 @@ public Action CommandBuyShield(int client, int args) {
 
     if(g_bPlayerHasBoughtSpecificItem[client][WEAPON_SHIELD]) {
         CPrintToChat(client, "%t%t", "ssp prefix", "ssp already purchased", weaponName);
+        return Plugin_Handled;
+    }
+    if(g_bOnlyInBuyZone && !IsClientInBuyZone(client)) {
+        CPrintToChat(client, "%t%t", "ssp prefix", "ssp only buy zone");
         return Plugin_Handled;
     }
 
