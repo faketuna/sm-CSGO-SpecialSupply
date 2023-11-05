@@ -3,17 +3,17 @@
     "ssp prefix"
     {
         "en"        "{yellow}[Special Supply]{default} "
-        "jp"        "{yellow}[特殊物資]{default} "
+        "jp"        "{yellow}[特殊アイテム]{default} "
     }
     "ssp disabled"
     {
         "en"        "Special supply is disabled."
-        "jp"        "特殊物資は無効化されています。"
+        "jp"        "特殊アイテムは無効化されています。"
     }
     "ssp only buy zone"
     {
         "en"        "You can only buy special supply in buy zone!"
-        "jp"        "特殊物資は購入エリアでのみ購入可能です!"
+        "jp"        "特殊アイテムは購入エリアでのみ購入可能です!"
     }
     "ssp insufficient money"
     {
@@ -36,7 +36,7 @@
     "ssp buy menu"
     {
         "en"        "Buy special supply"
-        "jp"        "特殊物資を購入"
+        "jp"        "特殊アイテムを購入"
     }
     "ssp buy menu already purchased"
     {
