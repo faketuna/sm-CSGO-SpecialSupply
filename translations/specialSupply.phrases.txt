@@ -1,0 +1,61 @@
+"Phrases"
+{
+    "ssp prefix"
+    {
+        "en"        "{yellow}[Special Supply]{default} "
+        "jp"        "{yellow}[特殊物資]{default} "
+    }
+    "ssp disabled"
+    {
+        "en"        "Special supply is disabled."
+        "jp"        "特殊物資は無効化されています。"
+    }
+    "ssp only buy zone"
+    {
+        "en"        "You can only buy special supply in buy zone!"
+        "jp"        "特殊物資は購入エリアでのみ購入可能です!"
+    }
+    "ssp insufficient money"
+    {
+        "#format"   "{1:d}"
+        "en"        "You have insufficient money! (Need: {1})"
+        "jp"        "所持金が足りません! (必要: {1})"
+    }
+    "ssp purchase"
+    {
+        "#format"   "{1:s}"    
+        "en"        "You purchased a {1}!"
+        "jp"        "{1}を購入しました!"
+    }
+    "ssp already purchased"
+    {
+        "#format"   "{1:s}"    
+        "en"        "{1} has already been purchased!"
+        "jp"        "{1}は購入済みです!"
+    }
+    "ssp buy menu"
+    {
+        "en"        "Buy special supply"
+        "jp"        "特殊物資を購入"
+    }
+    "ssp buy menu already purchased"
+    {
+        "en"        "Purchased"
+        "jp"        "購入済み"
+    }
+    "ssp buy menu weapon breachcharge"
+    {
+        "en"        "Breach Charge"
+        "jp"        "Breach Charge"
+    }
+    "ssp buy menu weapon bumpmine"
+    {
+        "en"        "Bump Mine"
+        "jp"        "Bump Mine"
+    }
+    "ssp buy menu weapon shield"
+    {
+        "en"        "Shield"
+        "jp"        "盾"
+    }
+}

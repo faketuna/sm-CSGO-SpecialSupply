@@ -1,0 +1,4 @@
+/scripting/*
+!/scripting/specialSupply.sp
+!/scripting/compiled/
+.vscode
