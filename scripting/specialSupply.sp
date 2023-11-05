@@ -101,7 +101,7 @@ public Action CommandSpecialSupply(int client, int args) {
         CPrintToChat(client, "%t%t", "ssp prefix", "ssp disabled");
         return Plugin_Handled;
     }
-    if(!g_bOnlyInBuyZone && !IsClientInBuyZone(client)) {
+    if(g_bOnlyInBuyZone && !IsClientInBuyZone(client)) {
         CPrintToChat(client, "%t%t", "ssp prefix", "ssp only buy zone");
         return Plugin_Handled;
     }
