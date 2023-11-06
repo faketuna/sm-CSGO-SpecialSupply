@@ -265,6 +265,7 @@ public int BuyMenuHandler(Menu prefmenu, MenuAction actions, int client, int ite
         else if(StrEqual(preference, "shield")) {
             FakeClientCommand(client, "sm_shield");
         }
+        DisplayBuyMenu(client);
     }
     else if(actions == MenuAction_DrawItem) {
         int style;
