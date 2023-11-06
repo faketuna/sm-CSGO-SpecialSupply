@@ -37,7 +37,7 @@ public Plugin myinfo =
     author = "faketuna",
     description = "Make some items buyable",
     version = PLUGIN_VERSION,
-    url = "http://www.theville.org"
+    url = "https://short.f2a.dev/s/github"
 }
 
 public void OnPluginStart() {
